@@ -26,4 +26,6 @@ dbplyr_resp <- tbl(con, "respondents")
 dbplyr_codes <- tbl(con, "activity_codes")
 
 dbplyr_act
+activity_codes <- collect(dbplyr_codes)
+activity_codes
 ```
